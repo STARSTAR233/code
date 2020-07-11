@@ -5,6 +5,7 @@
     <title>导购页面</title>
 </head>
 <body>
+<div align="center">
 <%
     request.setCharacterEncoding("UTF-8");
     String name=request.getParameter("username");
@@ -18,7 +19,7 @@
         out.print("账户或密码错误");
     }
 
-%><br>
+%></div><br>
 <%--<a href="food.jsp">请选择你要的水果：</a><br/>--%>
 </body>
 </html>

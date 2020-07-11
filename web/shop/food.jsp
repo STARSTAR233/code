@@ -6,13 +6,15 @@
 </head>
 <body>
 <form action="" method="post" name="form">
-    水果：<br />
-    <input type="checkbox" name="sec" value="apple" />apple<br />
+    <div align="center">水果：<br />
+    <div align="center">
+    <input type="checkbox" name="sec" value="apple"  />apple<br />
 
     <input type="checkbox" name="sec" value="Banana" />Banana<br />
     <input type="checkbox" name="sec" value="pear" />pear<br />
     <input type="checkbox" name="sec" value="peach" />peach<br />
     <input type="submit" name="gouwu" value="购物">
+        </div>
     <br />
     <br />
     <a href="count.jsp">欢迎查看购物车！</a>
