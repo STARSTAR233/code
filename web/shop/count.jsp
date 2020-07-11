@@ -6,6 +6,7 @@
     <title>查看购物车商品页面</title>
 </head>
 <body>
+<div align="center">
 <h3>这里是结账柜台，请确认以下信息。</h3>
 <br />
 <%
@@ -23,7 +24,8 @@
         }
     }
 %>
+    </div>
 
-<a href="food.jsp"> 水果店</a>
+<div align="center"><a href="food.jsp"> 水果店</a></div>
 </body>
 </html>
